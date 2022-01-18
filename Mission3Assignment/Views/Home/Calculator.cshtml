@@ -1,0 +1,42 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Calulator";
+}
+
+@model CalculatorModel;
+
+<h1>Grade Calculator</h1>
+<p>Put in each grade as a number.</p>
+<form method="post">
+    <label for="assignment">Assignments (55 of grade%):</label>
+    <input id="assignment" asp-for="Assignment" type="number" width="100" min="0" placeholder="Put your grade here" required /><br />
+
+    <label for="group">Group Project (5 of grade%):</label>
+    <input id="group" asp-for="Group" type="number" width="100" min="0" placeholder="Put your grade here" required /><br />
+
+    <label for="quiz">Quizzes (10 of grade%):</label>
+    <input id="quiz" asp-for="Quiz" type="number" width="100" min="0" placeholder="Put your grade here" required /><br />
+
+    <label for="exam">Exams  (20 of grade%):</label>
+    <input id="exam" asp-for="Exam" type="number" width="100" min="0" placeholder="Put your grade here" required /><br />
+
+    <label for="intex">INTEX (10 of grade%):</label>
+    <input id="intex" asp-for="Intex" type="number" width="100" min="0" placeholder="Put your grade here" required /><br />
+    <br />        <br />
+
+    <input class="btn" id="add" type="submit" value="Calculate Now" /> <!--id='btnSend'-->
+    @*not exactly sure what this is for*@
+    <div asp-validation-summary="All"></div>
+
+    <br />        <br />
+
+    <p id="output"></p>
+
+</form>
+
+
+<!--This is me linking my JS files for calculator!-->
+<script src="js/calculateGrade.js"></script>
+<script src="js/calc.js"></script>

@@ -4,7 +4,6 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
-  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Mission2Assignment' " />
   <ItemGroup>
     <Content Remove="wwwroot\" />
     <Content Remove="wwwroot\lib\" />
@@ -22,5 +21,17 @@
     <Folder Include="wwwroot\img\" />
     <Folder Include="wwwroot\lib\bootstrap\" />
     <Folder Include="wwwroot\lib\jquery\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Models\" />
+    <Folder Include="Views\" />
+    <Folder Include="Views\Home\" />
+    <Folder Include="Views\Shared\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Controllers\" />
+    <None Remove="Models\" />
+    <None Remove="Views\" />
+    <None Remove="Views\Home\" />
+    <None Remove="Views\Shared\" />
   </ItemGroup>
 </Project>

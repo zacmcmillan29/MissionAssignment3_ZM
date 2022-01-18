@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Mission2Assignment": {
+    "Mission3Assignment": {
       "commandName": "Project",
       "launchBrowser": true,
       "applicationUrl": "https://localhost:2005;http://localhost:2006",

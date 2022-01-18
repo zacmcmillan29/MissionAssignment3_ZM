@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"]</title>
+    <!--link bootstrap-->
+    <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/styles.css" rel="stylesheet" />
+    <link rel="icon" href="img/home.png" />
+</head>
+
+<body>
+
+    <nav>
+        <!-- This is for the Home page-->
+        <a asp-controller="Home" asp-action="Index">Home</a>
+        <!-- This is for the Fanmail page-->
+        <a asp-controller="Home" asp-action="Calculator">Calulate your grade now!</a>
+
+    </nav>
+
+    <div>
+        @RenderBody()
+    </div>
+
+    <br /><br /><br /><br />
+    <footer>Hello! This is the footer!</footer>
+
+
+    <!-- this is where we will put the jquery file-->
+    <script src="~/lib/jquery/jquery-3.6.0.min.js"></script>
+
+    <!-- bootstrap JS-->
+    <script src="~/lib/bootstrap/js/bootstrap.js"></script>
+
+
+</body>
+
+</html>
+
