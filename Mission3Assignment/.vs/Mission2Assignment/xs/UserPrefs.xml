@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{0C176345-EB8C-45B8-B8D4-8CCBE61C563F}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Mission2Assignment" expanded="True" selected="True">
+            <Node name="Mission2Assignment" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Mission2Assignment PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>
