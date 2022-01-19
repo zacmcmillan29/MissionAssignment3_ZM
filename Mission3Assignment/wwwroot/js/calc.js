@@ -104,34 +104,34 @@ $("#add").click(function () {
         if (total > 94) {
             letterGrade = "A"
         }
-        else if (total <= 93 && total > 90) {
+        else if (total <= 93 && total >= 90) {
             letterGrade = "A-"
         }
-        else if (total <= 89 && total > 86) {
+        else if (total < 90 && total > 86) {
             letterGrade = "B+"
         }
         else if (total <= 86 && total > 83) {
             letterGrade = "B"
         }
-        else if (total <= 83 && total > 80) {
+        else if (total <= 83 && total >= 80) {
             letterGrade = "B-"
         }
-        else if (total <= 79 && total > 76) {
+        else if (total < 80 && total > 76) {
             letterGrade = "C+"
         }
         else if (total <= 76 && total > 73) {
             letterGrade = "C"
         }
-        else if (total <= 73 && total > 70) {
+        else if (total <= 73 && total >= 70) {
             letterGrade = "C-"
         }
-        else if (total <= 69 && total > 66) {
+        else if (total < 70 && total > 66) {
             letterGrade = "D+"
         }
         else if (total <= 66 && total > 63) {
             letterGrade = "D"
         }
-        else if (total <= 63 && total > 60) {
+        else if (total <= 63 && total >= 60) {
             letterGrade = "D-"
         }
         else {

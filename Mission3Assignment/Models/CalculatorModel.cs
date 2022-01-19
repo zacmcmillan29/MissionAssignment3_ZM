@@ -29,9 +29,5 @@ namespace Mission3Assignment.Models
         [Range(0, 100)]
         //this is the field in the Calculator form for
         public int Intex { get; set; } // this last part in curly braces does what the bottom ones would do! 
-
-
-
-
     }
 }
