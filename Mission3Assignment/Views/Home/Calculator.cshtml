@@ -2,13 +2,13 @@
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
-    ViewData["Title"] = "Calulator";
+    ViewData["Title"] = "Calculator";
 }
 
 @model CalculatorModel;
 
 <h1>Grade Calculator</h1>
-<p>Put in each grade as a number.</p>
+<p>Put in each grade value between 0 and 100.</p>
 <form method="post">
     <label for="assignment">Assignments (55 of grade%):</label>
     <input id="assignment" asp-for="Assignment" type="number" width="100" min="0" placeholder="Put your grade here" required /><br />

@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{0C176345-EB8C-45B8-B8D4-8CCBE61C563F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/HomeController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/CalculatorModel.cs">
     <Files>
-      <File FileName="Models/CalculatorModel.cs" Line="1" Column="1" />
+      <File FileName="Models/CalculatorModel.cs" Line="14" Column="24" />
       <File FileName="Views/Home/Calculator.cshtml" />
-      <File FileName="Views/Shared/_Layout.cshtml" Line="28" Column="29" />
+      <File FileName="Views/Shared/_Layout.cshtml" />
       <File FileName="Startup.cs" />
       <File FileName="Program.cs" />
-      <File FileName="Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="Controllers/HomeController.cs" />
       <File FileName="Properties/launchSettings.json" />
       <File FileName="Views/Home/Index.cshtml" />
     </Files>
@@ -15,10 +15,10 @@
         <State name="__root__">
           <Node name="Mission3Assignment" expanded="True">
             <Node name="Mission3Assignment" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="HomeController.cs" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="CalculatorModel.cs" selected="True" />
               </Node>
-              <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
