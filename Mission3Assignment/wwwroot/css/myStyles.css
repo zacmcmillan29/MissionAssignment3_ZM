@@ -2,9 +2,9 @@
 
 }
 
-.btn{
+.btn {
     color: blue;
-    font-family:cursive;
-    font-size: larger;
-
+    font-family: cursive;
+    /*    font-size: 40px;*/
+    font-size: x-large;
 } 
