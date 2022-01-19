@@ -101,42 +101,79 @@ $("#add").click(function () {
 
         // This is the If statement for the letter grades!
 
-        if (total > 94) {
+        if (total >= 94) {
             letterGrade = "A"
         }
-        else if (total <= 93 && total >= 90) {
+        else if (total >= 90) {
             letterGrade = "A-"
         }
-        else if (total < 90 && total > 86) {
+        else if (total >= 87) {
             letterGrade = "B+"
         }
-        else if (total <= 86 && total > 83) {
+        else if (total >= 84) {
             letterGrade = "B"
         }
-        else if (total <= 83 && total >= 80) {
+        else if (total >= 80) {
             letterGrade = "B-"
         }
-        else if (total < 80 && total > 76) {
+        else if (total >= 77) {
             letterGrade = "C+"
         }
-        else if (total <= 76 && total > 73) {
+        else if (total >= 74) {
             letterGrade = "C"
         }
-        else if (total <= 73 && total >= 70) {
+        else if (total >= 70) {
             letterGrade = "C-"
         }
-        else if (total < 70 && total > 66) {
+        else if (total >= 67) {
             letterGrade = "D+"
         }
-        else if (total <= 66 && total > 63) {
+        else if (total >= 64) {
             letterGrade = "D"
         }
-        else if (total <= 63 && total >= 60) {
+        else if (total >= 60) {
             letterGrade = "D-"
         }
         else {
             letterGrade = "E"
         }
+
+    //if (total >= 94) {
+        //    letterGrade = "A"
+        //}
+        //else if (total < 94 && total >= 90) {
+        //    letterGrade = "A-"
+        //}
+        //else if (total < 90 && total >= 87) {
+        //    letterGrade = "B+"
+        //}
+        //else if (total < 87 && total >= 84) {
+        //    letterGrade = "B"
+        //}
+        //else if (total <= 83 && total >= 80) {
+        //    letterGrade = "B-"
+        //}
+        //else if (total < 80 && total > 76) {
+        //    letterGrade = "C+"
+        //}
+        //else if (total <= 76 && total > 73) {
+        //    letterGrade = "C"
+        //}
+        //else if (total <= 73 && total >= 70) {
+        //    letterGrade = "C-"
+        //}
+        //else if (total < 70 && total > 66) {
+        //    letterGrade = "D+"
+        //}
+        //else if (total <= 66 && total > 63) {
+        //    letterGrade = "D"
+        //}
+        //else if (total <= 63 && total >= 60) {
+        //    letterGrade = "D-"
+        //}
+        //else {
+        //    letterGrade = "E"
+        //}
 
 
 
